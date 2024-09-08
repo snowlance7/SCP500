@@ -12,7 +12,7 @@
 
 ## Contact
 
-For issues and suggestions visit the [github]() or [discord]() page.
+For issues and suggestions visit the [github](https://github.com/snowlance7/SCP500) or [discord](https://discord.com/channels/1168655651455639582/1282135712757579819) page.
 
 ## For collaboration or commissions
 

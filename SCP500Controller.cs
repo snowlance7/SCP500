@@ -18,7 +18,7 @@ namespace SCP500
 
         private Coroutine? scp500Coroutine;
 
-        public virtual void Update()
+        public void Update()
         {
             if (configRemoveDrunkness.Value) { localPlayer.drunkness = 0f; }
             if (configRemoveMovementHindered.Value) { localPlayer.isMovementHindered = 0; }
@@ -66,6 +66,7 @@ namespace SCP500
         }
     }
 
+    [HarmonyPatch]
     internal class Patches
     {
         [HarmonyPrefix]
