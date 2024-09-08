@@ -1,0 +1,10 @@
+{
+  "name": "SCP500",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "Adds SCP500 to the game and allows other modders to add compatibilities with it.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100",
+    "Evaisa-LethalLib-0.16.1"
+  ]
+}

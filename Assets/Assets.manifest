@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 191833537
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: scp500_assets
+      Dependencies: {}
