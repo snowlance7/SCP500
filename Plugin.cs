@@ -170,7 +170,7 @@ namespace SCP500
             }
         }
 
-        /*private static void InitializeNetworkBehaviours()
+        private static void InitializeNetworkBehaviours()
         {
             var types = Assembly.GetExecutingAssembly().GetTypes();
             foreach (var type in types)
@@ -186,6 +186,6 @@ namespace SCP500
                 }
             }
             LoggerInstance.LogDebug("Finished initializing network behaviours");
-        }*/
+        }
     }
 }

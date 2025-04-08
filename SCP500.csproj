@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <!-- BepInEx Properties -->
     <PropertyGroup>
@@ -44,6 +44,11 @@
         -->
         <PathMap>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)'))=./</PathMap>
     </PropertyGroup>
+    <ItemGroup>
+      <Compile Remove="SCP500UnityProject\**" />
+      <EmbeddedResource Remove="SCP500UnityProject\**" />
+      <None Remove="SCP500UnityProject\**" />
+    </ItemGroup>
     <ItemGroup>
       <None Remove=".gitattributes" />
       <None Remove=".gitignore" />
